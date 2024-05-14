@@ -1,0 +1,120 @@
+body{
+    font-family:  sans-serif;
+}
+#logo{
+    width: 10vmax;
+    height: 13vmin;
+}
+.menu img{
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+.capability{
+    display: none;
+}
+.mybackground{
+    background-image: url(images/collection-background.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+@media (max-width:290px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mybackground{
+        display: none;
+    }
+    .capability{
+        display: block;
+    }
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 40px;
+
+}
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.hero-p{
+    font-size: 3vh;
+}
+.mybtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(215, 89, 70);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size:large;
+}
+@media (max-width:650px) {
+   .part2{
+    display: none;
+   }
+   .menu img{
+    display: block;
+   }
+}
+@media (max-width:1447px) {
+    .info{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.shoe img{
+    width: 34vmax;
+    height: 30vmax;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.blocks img{
+    width: 13vmax;
+    height: 20vmin;
+}
+.franchise-info{
+    display: flex;
+    gap: 50px;
+}
+.allover{
+    display: flex;
+    flex-direction: column;
+}
+.hero-h1{
+    font-size: 7vh;
+}
